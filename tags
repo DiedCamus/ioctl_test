@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+GETMODULEINFO	ioctl_test.c	20;"	d	file:
+LIST_HEAD_INIT	ioctl_test.c	22;"	d	file:
+SIOCETHTOOL	ioctl_test.c	21;"	d	file:
+argc	ioctl_test.c	/^	int argc;$/;"	m	struct:cmd_context	file:
+argp	ioctl_test.c	/^	char **argp;$/;"	m	struct:cmd_context	file:
+cmd	ioctl_test.c	/^	__u32 cmd;$/;"	m	struct:eeprominfo	file:
+cmd	ioctl_test.c	/^	__u32 cmd;$/;"	m	struct:modinfo	file:
+cmd_context	ioctl_test.c	/^struct cmd_context {$/;"	s	file:
+data	ioctl_test.c	/^	__u8 data[0];$/;"	m	struct:eeprominfo	file:
+devname	ioctl_test.c	/^	const char *devname;$/;"	m	struct:cmd_context	file:
+do_calloc	ioctl_test.c	/^void *do_calloc(size_t nmemb, size_t size)$/;"	f
+do_malloc	ioctl_test.c	/^void *do_malloc(size_t size)$/;"	f
+eeprom_len	ioctl_test.c	/^	__u32 eeprom_len;$/;"	m	struct:modinfo	file:
+eeprominfo	ioctl_test.c	/^struct eeprominfo {$/;"	s	file:
+fd	ioctl_test.c	/^	int fd;$/;"	m	struct:cmd_context	file:
+ifr	ioctl_test.c	/^	struct ifreq ifr;$/;"	m	struct:cmd_context	typeref:struct:cmd_context::ifreq	file:
+len	ioctl_test.c	/^	__u32 len;$/;"	m	struct:eeprominfo	file:
+list_add	ioctl_test.c	/^static void list_add(struct list_head *new, struct list_head *head)$/;"	f	file:
+list_head	ioctl_test.c	/^struct list_head{ struct list_head *next, *prev;};$/;"	s	file:
+magic	ioctl_test.c	/^	__u32 magic;$/;"	m	struct:eeprominfo	file:
+main	ioctl_test.c	/^int main(int argc, char **argp)$/;"	f
+malloc_list	ioctl_test.c	/^static struct list_head malloc_list = {&malloc_list,&malloc_list};$/;"	v	typeref:struct:list_head	file:
+modinfo	ioctl_test.c	/^struct modinfo {$/;"	s	file:
+next	ioctl_test.c	/^struct list_head{ struct list_head *next, *prev;};$/;"	m	struct:list_head	typeref:struct:list_head::list_head	file:
+offest	ioctl_test.c	/^	__u32 offest;$/;"	m	struct:eeprominfo	file:
+prev	ioctl_test.c	/^struct list_head{ struct list_head *next, *prev;};$/;"	m	struct:list_head	typeref:struct:list_head::	file:
+reserved	ioctl_test.c	/^	__u32 reserved[8];$/;"	m	struct:modinfo	file:
+send_ioctl	ioctl_test.c	/^int send_ioctl(struct cmd_context *ctx, void *cmd)$/;"	f
+type	ioctl_test.c	/^	__u32 type;$/;"	m	struct:modinfo	file:
